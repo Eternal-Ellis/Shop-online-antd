@@ -1,4 +1,4 @@
-const API_DOMAIN = "http://localhost:3000/";
+const API_DOMAIN = "https://69e4ec62cfa9394db8da8879.mockapi.io/";
 
 export const get = async (path) => {
   const response = await fetch(API_DOMAIN + path);
