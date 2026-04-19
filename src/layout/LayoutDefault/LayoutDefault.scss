@@ -1,0 +1,40 @@
+.layout-default {
+  min-height: 100vh;
+
+  &__header {
+    background: #fff;
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 8px #f0f1f2;
+    z-index: 1;
+  }
+
+  &__logo {
+      a {
+        font-weight: bold;
+        font-size: 20px;
+        color: #1890ff; 
+        text-decoration: none;
+      }
+  }
+
+  &__cart {
+    font-weight: bold;
+  }
+
+  &__content {
+    padding: 24px 50px;
+  }
+
+  &__inner {
+    padding: 24px;
+    min-height: 280px;
+  }
+
+  &__footer {
+    text-align: center;
+    color: #888;
+  }
+}
